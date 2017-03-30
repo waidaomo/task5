@@ -1,0 +1,190 @@
+
+html{
+	font-size: 62.5%;
+}
+
+*{
+	margin: 0;
+	padding:0;
+}
+
+header{
+	position: fixed;
+	padding: 0.5rem 1rem;
+	height: 3rem;
+	background: #5fc0cd;
+	color: #fff;
+	top: 0;
+	left: 0;
+	right: 0;
+	line-height: 3rem;
+}
+
+header a{
+	cursor: pointer;
+	color: #fff;
+	text-decoration: none;
+	font-size: 2rem;
+	float: left;
+}
+
+header h3{
+	text-align: center;
+	font-size: 2rem;
+	margin: 0 4rem;
+}
+
+main{
+	top: 4rem;
+	left: 0;
+	right:0;
+	bottom: 5.4rem;
+	background: #fff;
+	position: absolute;
+	overflow: auto;
+}
+
+.content{
+	height: auto;
+}
+.photo{
+	background: url(background.jpg) no-repeat center;
+	width: 100%;
+	height: 14rem;
+	background-size: cover;
+	position: relative;
+
+}
+
+.photo1{
+	position: absolute;
+	border-radius: 50%;
+	margin-top: -3rem;
+	width: 6rem;
+	height: 6rem;
+	overflow: hidden;
+	background: #fff;
+	left: 2.5rem;
+	top: 50%;
+}
+
+.photo1 img{
+	width: 100%;
+}
+.photo2{
+	position: relative;
+	top: 50%;
+	transform: translate(0,-50%);
+	color: #fff;
+	margin-left: 10rem;
+}
+
+.name{
+	font-size: 1.5rem;
+}
+
+.add{
+	padding-left: 1.5rem;
+	background: url(add.png) no-repeat left center;
+	background-size: 1rem;
+	letter-spacing: 0.2rem;
+	margin-top: 0.5rem;
+}
+
+.technique{
+	font-size: 1.5rem;
+	height: 4rem;
+	line-height: 4rem;
+	padding-left: 1rem;
+	border-bottom: 1px solid #ccc;
+}
+
+.technique span{
+	padding-left: 0.5rem;
+	border-left: 4px solid #5fc0cd;
+}
+
+.list{
+	padding: 0 1rem;
+	list-style: none;
+
+}
+
+.list li{
+    border-bottom: 1px solid #ccc;
+    /*height: 4rem;*/
+    min-height: 2rem;
+    line-height: 2rem;
+    padding: 1rem;
+    position: relative;
+    overflow: auto;
+
+}
+
+.live{
+	background: url(star.png) no-repeat left center;
+	background-size: 1rem;
+	padding: 0  1rem 0 1.2rem;
+	/*line-height: 2rem;*/
+}
+
+.item{
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	width: 5rem;
+	border-right: 1px solid #ccc;
+	color:#aaa;
+}
+
+
+.item1{
+	margin-left: 6rem;
+}
+.item2{
+	color:red;
+}
+
+
+footer{
+	display: flex;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right:0;
+	height: 3.5rem;
+	text-align: center;
+	padding: 1rem;
+
+}
+
+.words{
+	background: #fff;
+	color: #5fc0cd;
+	font-size: 1.8rem;
+	border-radius: 5%;
+	box-shadow: inset 0 0 0 2px #5fc0cd;
+	outline: none;
+	border: none;
+	cursor: pointer;
+	margin-right: 1rem;
+
+}
+
+.telephone{
+	background: #5fc0cd;
+	color: #fff;
+	font-size: 1.8rem;
+	border: none;
+	padding: 0.6rem;
+	cursor: pointer;
+	outline:none;
+	border-radius: 5%;
+
+}
+
+footer > button{
+	flex: 1;
+	height: 3.5rem;
+	width:50%;
+}
