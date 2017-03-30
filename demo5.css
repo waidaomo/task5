@@ -59,13 +59,13 @@ main{
 .photo1{
 	position: absolute;
 	border-radius: 50%;
-	margin-top: -3rem;
 	width: 6rem;
 	height: 6rem;
 	overflow: hidden;
 	background: #fff;
 	left: 2.5rem;
 	top: 50%;
+	transform: translateY(-50%);
 }
 
 .photo1 img{
@@ -186,5 +186,4 @@ footer{
 footer > button{
 	flex: 1;
 	height: 3.5rem;
-	width:50%;
 }
